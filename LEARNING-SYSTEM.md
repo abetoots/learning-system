@@ -54,17 +54,19 @@ The test is simple. **Difficulty that comes from trying to remember or work some
 
 ## 2. Pick your track
 
-The system is the same for everyone. What differs is **the one thing currently holding you back** — and there is usually exactly one. Fix anything else first and the effort is wasted. So work out which is yours before you start.
+The system is the same for everyone. What differs is **where to push first.** Stalls usually involve more than one thing at once, but there is normally one that is the best place to start — fix something else first and the effort is mostly wasted. So work out which is yours before you begin.
 
 | | **Track A — Reactivate** | **Track B — From zero** | **Track C — New domain** |
 |---|---|---|---|
-| **You are** | Already competent; knowledge is there but not accessible under pressure | No prior schema in this field at all | Competent adult, entirely new field |
+| **You are** | Already competent; knowledge is there but not accessible under pressure | No mental map of this field yet | Competent adult, entirely new field |
 | **Examples** | Interview prep, an exam, returning to a language after 2 years, a certification | First programming language, first instrument, a new natural language | Trading, law, a new engineering discipline, a career change |
 | **What's holding you back** | Getting it back out under pressure, and knowing what you actually know *(L5, L9)* | The order you meet material, not drowning in it, and not quitting *(L2, L3, L12)* | Knowing what "good" even looks like, and getting honest feedback *(L1, L8)* |
 | **Real risk** | You recognize everything and can produce nothing when the clock is running | Quitting — and overload that feels like "I'm not smart enough" | Building a confident, wrong picture of the field because nothing corrects you |
 | **Skip for now** | Don't relearn from scratch. Testing *is* your study method from day one. | Don't mix topics yet. Don't chase the big picture. Don't shop for tools. | Don't do volume before you can tell good work from bad. |
 
 **If you are unsure which track you're on:** take a blank page, set a 10-minute timer, and write everything you know about the target topic from memory. Fill the page but it's disorganized → **A**. Can't start, but you can name the field's major parts → **C**. Can't start and don't know what the parts are → **B**.
+
+**Mixed-track material (added 2026-08-01).** The track table above assumes one track per effort, but AI-assisted work breaks that assumption at the item level, not just for programming. Reactivating a project you built with an AI coding assistant, a report an AI drafted and you edited, a model you fit with AI-suggested hyperparameters — all can leave a genuine Track A effort with real Track B pockets: pieces you reviewed and approved without independently deriving. Track and route *per item*, not per effort, and don't decide it from memory — "did I understand this at the time" is exactly the kind of self-report §9's illusion-of-competence warning already tells you not to trust. Use the same blank-page test above, but per item and in the present tense: what can you produce *right now*, cold, decides the track for that item — not what you recall having once known.
 
 ---
 
@@ -101,7 +103,7 @@ Three examples, from beginner to specialist:
 
 **Track A:** phrase these as the *exact performance* you'll be asked for. If the interview is a 4-minute spoken answer, write "I can explain X out loud in 4 minutes without notes" — not "I can write about X."
 
-**Track B:** make each one small enough that you can succeed at it today. That is deliberate, not a lowered bar. Early wins are what keep you going, and nobody gives you credit for setting a target you don't hit.
+**Track B:** make each one small enough that you can succeed at it today. That is deliberate, not a lowered bar. Early wins are what keep you going, and nobody gives you credit for setting a target you don't hit. If you have a mentor or a course, have them check your first list.
 
 **Track C:** you will get these wrong at first, because you don't yet know what good looks like in this field. Write your best guess, mark it provisional, and revise after two weeks. That revision *is* the learning.
 
@@ -197,6 +199,8 @@ Run this per topic. **Your track changes which steps carry the weight:**
   1. Write down the small thing you want to be able to do.
   2. Study a worked example — a complete solution with the reasoning shown.
   3. **Do the same problem with a few pieces removed, and fill them in.** This step is the one beginners skip, and skipping it is why they quit. Going straight from watching someone solve it to reproducing it cold is a cliff; this is the ramp.
+
+     *Where to get one:* few courses ship these, which is the historical reason the step gets skipped — there was nothing to skip *to*. Ask an AI to take the worked example you just studied and hand it back with a piece removed and a comment saying what belongs there. That is practice-generation, not answer-seeking, and it stays on the safe side of §8.
   4. *Then* close everything and try it from memory.
   5. Compare against the reference answer and write down why you diverged.
   6. Do more problems, with less help each time.
@@ -305,12 +309,14 @@ The operating rule: **seek the minimum viable hint, not the solution.** This app
 | "Ask me questions until I find the bug myself" | "Fix this bug" |
 | "Here's my answer. What's wrong with my reasoning?" | "What's the answer?" |
 | Ask for a *worked example* of a similar problem | Ask for the solution to *your* problem |
-| Generate practice problems and counterexamples | Generate the solutions you were going to practice |
+| Generate practice problems, counterexamples, and **completion problems** — solution hidden until after your attempt | Generate the solutions you were going to practice |
 | Ask it to grade against a rubric you wrote | Ask it whether you're doing well |
 
 **Your one metric:** the share of your AI interactions requesting a **final answer** versus a **hint, critique, or question.** If the answer-seeking share is rising, your unassisted ability is falling. This is measurable, and you should actually measure it.
 
-**Self-test, monthly:** solve a representative problem with AI fully disabled. If performance collapses, cut back to feedback-after-attempt only until it doesn't.
+**Count each request as you make it — don't reconstruct it later from your error log.** A log fires when something goes wrong, and asking immediately means nothing does: you were never stuck, nothing broke, so there is nothing to write down. The habit this metric exists to catch is the one that leaves no trace.
+
+**Self-test, monthly:** solve a representative problem with AI fully disabled. If performance collapses, cut back to feedback-after-attempt only until it doesn't. **This is the objective check on the metric above**, which is self-report and drifts gently — "I attempted it first" becomes "I glanced at it first" one small step at a time. If you have a mentor, a graded course, or a scheduled test, let that external check settle it rather than your own log.
 
 **Track C is most at risk.** In a new domain you can't yet tell a good AI answer from a confident wrong one, so early over-reliance builds a fluent, wrong model that is expensive to unlearn. Verify against primary sources until you have your own judgment.
 
@@ -322,7 +328,7 @@ The operating rule: **seek the minimum viable hint, not the solution.** This app
 |---|---|---|
 | **Fact-heavy** (terminology, anatomy, law, vocab) | Heavy spaced repetition; elaborative interrogation to connect facts into a schema | Orphan facts with no structure; over-carding |
 | **Mathematics** | Worked examples → faded → **interleaved** mixed sets; self-explain every step; error log | Blocked practice only — real tests demand method *selection* |
-| **Programming** | Build things, but pair projects with drills on weak sub-skills; write code from a blank editor before autocompleting; treat debugging as its own trainable skill | Autocomplete removing the retrieval that builds fluency; tutorial hell (expertise reversal) |
+| **Programming** | Start each new topic **worked example → completion problem → blank editor**, then build things; pair projects with drills on weak sub-skills; treat debugging as its own trainable skill | Autocomplete removing the retrieval that builds fluency; tutorial hell (expertise reversal) — usually caused by skipping the completion-problem step |
 | **System design / architecture** | Case studies as worked examples; contrasting cases ("why Kafka *not* RabbitMQ"); "given these constraints, design X" | Memorizing component names instead of extracting principles and boundary conditions |
 | **Languages** | Spacing + retrieval for vocab; massive comprehensible input; speaking *is* retrieval practice | **Do not interleave similar vocabulary** — block it (g ≈ −0.39) |
 | **Writing** | Volume + expert critique; imitate models; revision as error correction | Waiting for inspiration instead of practicing with feedback |
@@ -354,7 +360,7 @@ Hiding the outcome during process review is not a nicety. It is the only defense
 
 ## 10. Diagnostics
 
-When learning stalls it is almost never intelligence or effort. It is one layer failing. Find it here.
+When learning stalls it is almost never intelligence or effort. It is a layer failing — often more than one at once, so **start with the lowest layer that explains the stall.** Fixing that usually makes the ones above it easier to see. Find it here.
 
 | Symptom | Failing layer | Test | Fix |
 |---|---|---|---|
@@ -363,11 +369,12 @@ When learning stalls it is almost never intelligence or effort. It is one layer 
 | "I solve familiar problems but fail unfamiliar ones" | L10 — no transfer training | Mixed problem set, no labels | Interleave; contrasting cases; practice method *selection* |
 | "My reviews are overwhelming" | L6 — over-carding | Audit: how many cards could you just look up? | Prune ruthlessly. Card only atomic, high-value items |
 | "I keep consuming tutorials but can't build" | L2 — expertise reversal | Try to build with all tutorials closed | Shift to unaided problem-solving. Withdraw scaffolds deliberately |
-| "I study consistently but forget after weeks" | L6 — no spacing | Do you ever revisit after first learning? | Scheduled spaced retrieval |
+| "I study consistently but forget after weeks" | L6 — no spacing | When do you revisit — same session, after a delay, or never? | Scheduled spaced retrieval. **Same-session counts as never here** — see §6 |
 | "I know details but have no big picture" | L4 — fragmented encoding (L11 helps you *see* the gap; the failure is upstream) | Draw the domain's structure from memory | Extract principles; teach the overview cold; concept-map to expose gaps |
 | "I'm surprised by my test results" | L9 — miscalibration | Rate confidence before every answer for a week | Track confidence vs. correctness; target the overconfident regions |
 | "I avoid practice because it makes me feel incompetent" | L12 — fluency-seeking | Do you prefer rereading to testing? | Reframe: difficulty *is* the mechanism. Implementation intentions; small graded wins |
 | "I can't perform without AI" | L5 — retrieval never happened; the tool did the work (§8 cuts across every layer rather than being one) | Solve one problem with AI disabled | Attempt-first only. AI critiques, never answers |
+| "I can't tell if I actually knew this or just approved it" | L4 — mixed-track blind spot; provenance and encoding depth conflated (§2) | Blank-page cold attempt, right now, before rereading the source | Route by the present-tense result, not by memory of the past — a failed attempt gets Track B treatment for that item, regardless of who originated it |
 | "I'm always studying but never practicing" | L11 — system bureaucracy | What % of your time produces *output* vs. organizes input? | See §11 |
 | "I studied an hour and nothing stuck" | L4 — you were below Constructive | What did you *generate* that wasn't in the source? | See §4.1 (ICAP). Generate something |
 | "It's hard but I can't tell if that's good" | L3 — load type | Is it hard because of *recall*, or because of notation, setup, distraction? | Recall difficulty: keep. Everything else: eliminate |
@@ -535,6 +542,59 @@ Rate your confidence (0–100%) *before* checking any answer. Track it. Within a
 ## Sign-off record
 
 Synthesized from three independent deep-research reports in this directory, then taken through two review rounds by independent models. All required changes from both rounds were applied.
+
+### Round 6 — mixed-track material from agentic coding (2026-08-01)
+
+**§2 and §10.** A downstream user of this framework (a study plan reactivating an AI-assisted codebase for interview prep) found that "Track A" can be locally false: parts of a project built via agentic coding may never have been independently encoded, even though the effort as a whole is clearly reactivation. Two additions, both unanimous ADOPT from the same two-leg panel (GPT-5.2/Codex, Gemini 3.1 Pro High) that reviewed the downstream fix itself: a mixed-track note at the end of §2's track table, and a new §10 diagnostic row for "I can't tell if I actually knew this or just approved it."
+
+**The pattern, not just the instance.** Both legs, reasoning independently over the downstream case, converged on the same fix from two different framework sections (one from L9 calibration alone, the other from L9+L5+ICAP together) — retrospective self-report ("did I know this before?") is unreliable for the same reason §9 already distrusts fluency-based confidence, so the routing signal has to be a present-tense cold attempt, never a memory judgment. This generalizes past agentic coding: any effort where the learner reviewed and approved material without generating it — a co-written report, an AI-assisted model fit — has the same blind spot. §11 test applied before adding this: it's one paragraph and one table row, not a new section, and it reuses the existing blank-page instrument rather than inventing a new one.
+
+**Full downstream discussion:** `~/learning-prep/AI-OWNERSHIP-GAP_MULTI_REVIEW.md` and `~/learning-prep/PLAN-SIGNOFF_MULTI_REVIEW.md`.
+
+### Round 5 — one diagnostic false negative (2026-07-23)
+
+**§10, the L6 row.** Test question was *"Do you ever revisit after first learning?"* → **"When do you revisit — same session, after a delay, or never?"**, and the fix column now says **"Same-session counts as never here."** Unanimous ADOPT.
+
+**The defect:** a learner who reconstructs from memory at the end of every session answers the old question *"yes, every time"* — truthfully — and is routed away from the L6 fix, because they demonstrably do revisit. But they still forget, because every retrieval they do is immediate. The row caught "never revisits" and was blind to "revisits too soon." The L4/L5 fluency-illusion row above it doesn't catch them either: its test is *"blank page, 24h later"*, which is precisely the thing they aren't doing. Both legs contributed wording — Codex's *"after a delay"* over "days later" (§6 says "tomorrow or later"; the mechanism is immediate-vs-delayed, not a specific schedule), and Gemini's catch that *"When do you revisit"* presupposes revisiting, which would have broken the diagnostic for the original never-revisit case.
+
+**§6 itself: no change, unanimous.** It already states the distinction in bold and ends *"Don't mistake the second for the first."* It is also, per the Round 1 record, already the *product* of fixing this exact error once. Adding another warning would be the §11 bloat the framework warns against.
+
+**The pattern, recorded rather than encoded.** This same error — mistaking immediate reconstruction for durable retrieval — has now occurred twice here: in the original §6 draft, and in a study plan written by someone with §6 open. Both legs read that as a behavioural trap rather than a documentation failure. Gemini put it best: *"When an error consistently overrides explicit knowledge of the rule, you cannot fix it by encoding the rule harder."* Immediate reconstruction feels productive precisely because working memory is still loaded — that is the fluency illusion of §1, operating on someone who can quote §1. The response is not louder warnings; it is a diagnostic that catches the failure when it inevitably happens. Hence a §10 edit and no §6 edit.
+
+*The lead disclosed to both legs that, having made the error, they had an incentive to locate the fault in the document. Codex explicitly weighed it: "the lead's incentive to blame the document should count against broad upstream changes. It does not defeat the §10 edit, because the diagnostic row independently contains a real false negative."*
+
+### Round 4 — the two items Round 3 deferred (2026-07-23)
+
+Both items were carried forward deliberately rather than adopted unreviewed. Both are now resolved.
+
+**§2 track table — `schema` removed.** *"No prior schema in this field at all"* → **"No mental map of this field yet."** Unanimous, with both legs proposing identical replacement text. It was the last undefined-at-first-use term on the beginner path, and it had survived two prior readability gates — short, ordinary-looking words are exactly what a readability formula cannot see. The readability skill's rule decided it: a *droppable* term gets dropped, not defined, because defining it spends words on the highest-stakes path. First use now falls at §9 and Appendix L3, both lookup material for a more advanced reader, which is the correct place for it. **The beginner path is now at zero undefined-at-first-use terms.**
+
+**§8 — the metric now says when to record.** Added: *"Count each request as you make it — don't reconstruct it later from your error log. A log fires when something goes wrong, and asking immediately means nothing does… The habit this metric exists to catch is the one that leaves no trace."*
+
+This one was **split, and decided by the lead's casting vote.** Gemini: REJECT as redundant — Round 3 already named the self-report drift and gave the monthly disabled self-test as the objective backstop. Codex: MODIFY — that covers the *lagging* check but not the *leading indicator*, which can still be mis-implemented as "log misses and stuck-time."
+
+Vote to Codex, because **drift and blindness are different failures.** Round 3 addressed a learner who records but shades the record. This addresses a learner for whom the record is never triggered at all — and that is not hypothetical: it is the exact defect that occurred in field use, where AI tracking was folded into an error log whose triggers were "got it wrong" and "stuck >10 min", producing a clean log for a learner asking AI first every time. The framework's silence on *when to record* is what invited it.
+
+Both legs agreed on the placement question that was genuinely at risk: **no general note in §3.3.** Gemini predicted Codex would push for the abstract version; Codex explicitly rejected it as too abstract for a beginner-path artifact and too costly under §11. The narrow, concrete §8 line was the only version either leg would accept.
+
+### Round 3 — field-use revision (2026-07-22)
+
+Six changes, arising from a six-round exercise that used this document to build plans for two real learners (a job-hunting senior engineer; a complete beginner with a mentor). Every change was checked against the three source reports in `research-artifacts/` before adoption. **Both independent legs signed off: GPT-5.2/Codex and Gemini 3.1 Pro.**
+
+| § | Change | Basis |
+|---|---|---|
+| **§2, §10** | *"there is usually exactly one"* → **"where to push first"**; *"It is one layer failing"* → **"start with the lowest layer that explains the stall"** | **The document contradicted its own source.** chatgpt-research.md: *"failure modes are usually cross-layer failures"*, naming tutorial hell as combining poor goal definition, over-example dependence, insufficient fading, absent transfer tasks and AI over-assistance. Both legs independently confirmed the contradiction. The single-action framing is preserved — a stalled learner needs one next move, not a systems diagram — without asserting a model the research rejects |
+| **§9 Programming** | Row now leads with **worked example → completion problem → blank editor**; tutorial hell named as the consequence of skipping the middle step | chatgpt-research.md: a 2023 study found *"faded worked examples with metacognitive scaffolding were the most effective combination for novice problem-solving programming"*. This was in §5's Track B loop but not in the row a programmer actually scans |
+| **§5 step 3** | Added *where to get a completion problem* | Few courses ship them — historically the reason the step gets skipped was that there was nothing to skip *to*. This constraint is now gone |
+| **§8 ✅ row** | Added **completion problems, solution hidden until after your attempt** | Consistent with Bastani: the harm is solution access and cognitive substitution. Generating a scaffold is not requesting a solution. Codex supplied the hidden-solution qualifier |
+| **§8 self-test** | The monthly AI-disabled test is now named as **the objective check on the ratio metric**, which is self-report and drifts | Gemini's correction to the lead: the ratio is *operationalized* calibration and the research supports it (self- and peer-assessment, g ≈ 0.205–0.683). It should not be demoted — only backstopped |
+| **§3.1 Track B** | *"If you have a mentor or a course, have them check your first list."* | Telling a real "I can do Y" from a topic in disguise is itself the expertise being built. Split verdict — Codex MODIFY, Gemini REJECT as bloat; lead's casting vote to Codex's one-clause version, which routes to the §3.4 source the framework already mandates |
+
+**Rejected — unanimous.** A fourth question for §11's guardrail (*"who reads this, and when?"*). It is a true principle: a control nobody inspects is decoration, and it caused a real defect downstream. But this framework is written for self-study, where the answer is almost always "me", and §11's value is the brevity of its three-question deletion test. The concern is instead addressed where it actually bites, in §8.
+
+**Not proposed, and recorded so it isn't lost.** A self-monitoring instrument that only fires when something goes *wrong* is blind to failure modes that don't feel wrong — a learner who asks AI instantly never gets stuck and never misses, so a log triggered by misses never sees them. This generalizes, but neither leg proposed it and the framework does not specify logging triggers at that grain, so it stayed out rather than entering unsigned.
+
+**Readability guard held:** beginner path (§0–§3) FK 6.6 against the round-2 baseline of 6.7; no new undefined-at-first-use terms. One pre-existing term, *schema* (§2 track table), was found undefined on the beginner path and deferred rather than changed without review — resolved in Round 4.
 
 ### Round 2 — readability, against defined acceptance criteria
 
