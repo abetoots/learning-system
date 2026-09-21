@@ -543,6 +543,8 @@ Rate your confidence (0–100%) *before* checking any answer. Track it. Within a
 
 Synthesized from three independent deep-research reports in this directory, then taken through two review rounds by independent models. All required changes from both rounds were applied.
 
+**Downstream:** `template/INTAKE.md` is this document compiled into a setup form, stamped with the commit it was compiled from and a table-to-section map. A change to any mapped section is not done until that table is re-derived and the stamp bumped in the same commit.
+
 ### Round 6 — mixed-track material from agentic coding (2026-08-01)
 
 **§2 and §10.** A downstream user of this framework (a study plan reactivating an AI-assisted codebase for interview prep) found that "Track A" can be locally false: parts of a project built via agentic coding may never have been independently encoded, even though the effort as a whole is clearly reactivation. Two additions, both unanimous ADOPT from the same two-leg panel (GPT-5.2/Codex, Gemini 3.1 Pro High) that reviewed the downstream fix itself: a mixed-track note at the end of §2's track table, and a new §10 diagnostic row for "I can't tell if I actually knew this or just approved it."

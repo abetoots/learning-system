@@ -1,5 +1,23 @@
 # Intake
 
+**Compiled from `LEARNING-SYSTEM.md` at commit `460eafa` (2026-09-03).** The compile tables below are hand-copied from the framework; nothing re-derives them. Before committing a framework change, run `git log 460eafa..HEAD -- LEARNING-SYSTEM.md` and, if the diff touches a mapped section, re-derive that table and bump this stamp in the same commit.
+
+| Table here | Mirrors |
+|---|---|
+| Q1 — Track | §2 track table and the blank-page test |
+| Q2 — Domain class | §9 domain table, §9.1 |
+| Q3 — Reader model | §3.1 Track B line; the two learning-prep instances |
+| Q4 — Reference answer source | §3.4; §5 Track C binding step |
+| Q5 — AI-assisted material | §2 mixed-track paragraph; §10 "approved it" row |
+| Q6 — Hours, deadline, cadence | §6 weekly review; §13 (no framework section owns budget arithmetic — it came from interview-prep's first pass) |
+| Track → shape | §2, §3.1 track phrasing, §3.2, §5 track weights, §6 deadline taper |
+| The core loop | §5 steps and advance/fail table |
+| Files → from the answers | §3 (the three artifacts), §9.1 (decision log), §11 |
+| Hours → session protocol | §6 blocks and the delayed-recall distinction |
+| AI policy | §8 rules table, the one metric, the monthly self-test |
+| Diagnostic thresholds | §10 rows; §13 keep/discard; §11 |
+| First 30 days → Weeks | §13 table |
+
 Six questions. The answers compile the framework into the `## Plan` block for `README.md` and decide which files exist. Answer in a Claude session (it reads the framework so you don't) or by hand using the tables below. **Output test: if any field in the block says "see §N," the intake failed.** Section numbers are for exceptions only.
 
 ## The questions
