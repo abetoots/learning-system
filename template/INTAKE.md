@@ -32,6 +32,8 @@ Blank page, 10-minute timer, write everything you know about the target from mem
 | Can't start; can name the field's major parts | **C — New domain** | Competent adult, new field. Binding step: a reliable feedback source *before* volume |
 | Can't start; don't know the parts | **B — From zero** | Order, load, not quitting. Don't mix topics; don't chase the big picture; don't shop for tools |
 
+**Track A with no deadline still needs a named target performance** — "I can" lines are phrased against an exam, and without one they decay into topics. The domain-neutral one: *explain it from first principles with no notes, say what breaks if it's wrong, build the smallest working version from a blank file.*
+
 ### Q2 — Domain class
 
 | Class | Domains | Emphasise | Watch for |
@@ -73,7 +75,11 @@ Was any of the material you'll be reactivating built with an AI assistant (code,
 
 ### Q6 — Hours, deadline, cadence
 
-Hours per week, honestly. **Which days you study**, and how long each. Deadline date, if any. **Which day is the weekly review** — a fixed day, protected. Then fill the worksheet — the budget was the hardest finding in the first package and it was pre-existing. **The bar** is the time limit written in your own "I can" lines (e.g. "in 20 minutes"); count each activity at that bar, not at the speed you hope for.
+Hours per week, honestly. **Which days you study**, and how long each. **Which day is the weekly review** — a fixed day, protected. Deadline date, if any.
+
+**No deadline → skip the worksheet.** There is no total to hit, so there is nothing to compute; a budget with no date behind it is a quit point, not a plan. Cadence still binds: the study days, the review day, and the two-week keep/cut test. The stop condition is the competency list — the path ends when every line has its proof, or when the keep/cut test says the artifacts have stopped earning their place.
+
+**Deadline → fill the worksheet.** The budget exists whether you compute it or not; an unstated one reads as personal failure when it is missed — the hardest finding in the first package, and it was pre-existing. **The bar** is the time limit written in your own "I can" lines (e.g. "in 20 minutes"); count each activity at that bar, not at the speed you hope for.
 
 | Activity | Count per week | Minutes each, at the bar | Minutes per week |
 |---|---|---|---|
@@ -182,8 +188,8 @@ Reader model: <self|mentor+learner>   Mentor: <name from Q3, or —>
 Reference answer: <named source from Q4 · A/B: "none → drill-bank.md" · C: "none → stop; feedback source is competency #1">
 AI-assisted material: <no | yes → cold gate in week 1>
 Files: <from the Files table: the always-five plus the conditional ones the answers add>
-Hours/week: <n>   Deadline: <date or —>   Weeks total: <n>
-Budget: <the worksheet total> of <hours × 60>; cut: <what, if over; or —>
+Hours/week: <n>   Deadline: <date or —>   Weeks total: <n, or "open — ends at the competency list">
+Budget: <deadline: the worksheet total of hours × 60; cut: what, if over · no deadline: "skipped on purpose">
 Session protocols: <day → block, for each study day, durations written out>
 Who sets the order: <from the track row>
 Core-loop order: <from the track row, written out>
